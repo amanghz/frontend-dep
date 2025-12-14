@@ -1,0 +1,65 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #00796b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  color: #004d40;
+}
+
+.hero button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #004d40;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #00796b;
+}
+
+/* Sections */
+section {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
